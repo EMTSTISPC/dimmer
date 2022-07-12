@@ -23,7 +23,7 @@ void loop()
 {
     if (digitalRead(Sube_velocidad) == 0)
     {                               // si el boton esta presionado
-        if (numero < 3)             // si el numero es menor a 9
+        if (numero < 3)             // si el numero es menor a 3
         {                           // si es la primera vez que presiono el boton
             numero++;               // aumento el contador
             Serial.println("Boton sube presionado"); // muestro en el puerto serie que presiono el boton
